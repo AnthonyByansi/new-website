@@ -1,0 +1,223 @@
+<!-- My personal website design -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>BYANSI ANTHONY 21/U/0006</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+        }
+        
+        table#alter tr:nth-child(even) {
+            background-color: #eee;
+        }
+        
+        table#alter tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        
+        table#alter th {
+            color: white;
+            background-color: gray;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <H1>BYANSI ANTHONY 21/U/0006</H1>
+        <P>Byansi Anthony is a first year software engineering student, a tech enthusiastic.</P>
+    </center>
+    <!-- header -->
+    <header>
+        <div>
+            <div>
+                <nav>
+                    <a href="index.html"><span ></span> Byansi Anthony</a>
+                    <button>
+          <span >The Code Addict</span>
+        </button>
+                    <div>
+                        <ul>
+                            <li>
+                                <a>Home</a>
+                            </li>
+                            <li>
+                                <a>About me</a>
+                            </li>
+                            <li>
+                                <a href="./hobbies.html">Hobbies and Interests</a>
+                            </li>
+                            <li>
+                                <a>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- /header -->
+    <!-- about me -->
+    <nav>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <img src="./images/profile.jpg" height="100%" width="20%">
+                        <img src="./images/logo.jfif">
+                    </div>
+                </div>
+                <div>
+                    <h4>Byansi Anthony</h4>
+                    <p> I'm a Passionate designer & developer who loves working o UI and UX designs 💖
+                    </p>
+                    <img src="./images/profile2.jpg" height="100%" width="20%">
+                    <p>Byansi Anthony</p>
+                    <h6>The code Addict</h6>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- /About me -->
+    <!-- little details about me -->
+    <section>
+
+    </section>
+    <!-- /little details about me -->
+    <!-- about my profile -->
+    <section>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <h4>About my profile </h4>
+                        <p>When my parents told me I could be anything I wanted to be, I chose to be a Software Engineer. <br> I’m a data structure, who’s looking for a sorting algorithm. <br> I’m a software engineer, with a keen interest in software and
+                            hardware, and I also love my keyboard <br> If you’re not coding, you’re just a hobbyist. <br> Keep calm and code on.
+                        </p>
+                        <table>
+                            <caption>My Accademic Qualifications</caption>
+                            <tr>
+                                <th>School of Study</th>
+                                <th>Qualification</th>
+                                <th>Year</th>
+                            </tr>
+                            <tr>
+                                <td>KIIRA COLLEGE BUTIKI</td>
+                                <td>U.A.C.E</td>
+                                <td>2019-2021</td>
+                            </tr>
+                            <tr>
+                                <td>KIIRA COLLEGE BUTIKI</td>
+                                <td>U.C.E</td>
+                                <td>2015-2018</td>
+                            </tr>
+                            <tr>
+                                <td>DOWN PRIME ACCADEMY</td>
+                                <td>P.L.E</td>
+                                <td>2012-2014</td>
+                            </tr>
+
+                        </table>
+
+
+                        <div>
+                            <div>
+                                <div>
+                                    <span></span>
+                                    <p>6</p>
+                                    <h4> web development Projects Done</h4>
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <p>4</p>
+                                    <h4>Codding Challenges </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="./~$b dev assignment.docx" download rel="noopener noreferrer" target="_blank">Download a description of my website<a href="./~$b dev assignment.docx" download rel="noopener noreferrer" target="_blank"> <br>
+                       
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="assets/images/about.jpg" alt="Byansi Anthony">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <br>
+    <!-- /about me -->
+    <h2>Contact Me</h2>
+    <form action="mailto:byansianthony@gmail.com">
+        <div>
+            <div>
+                <div>
+                    <label class="form-label" for="contact-your-name-2">Your Name</label>
+                    <input type="text" name="name" data-constraints="@Required">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="contact-email-2">E-mail</label>
+                    <input class="form-input" id="contact-email-2" type="email" name="email" data-constraints="@Email @Required">
+                </div>
+            </div>
+            <div>
+                <div><label for="contact-phone-2">Phone</label>
+                    <input id="contact-phone-2" type="text" name="phone" data-constraints="@Numeric">
+
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="contact-message-2">Message</label>
+                    <textarea id="contact-message-2" name="message" rows="5" cols="25" data-constraints="@Required"></textarea>
+                </div>
+            </div>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+    <!-- skills and hobbies -->
+
+
+    <!-- Footer about myself -->
+    <footer>
+        <section>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <p>&copy; All Rights Reserved | Design by <a href="https://www.linkedin.com/in/byansi-anthony-7a027222a ">BYANSI ANTHONY</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    </footer>
+    <!-- /footer about myself -->
+
+
+
+</body>
+
+</html>
